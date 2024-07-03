@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BTS DSI E-Learning Maroc</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">BTS DSI</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about-us">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link btn btn-outline-success my-2 my-sm-0" href="login.php">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-outline-success my-2 my-sm-0" href="signup.php">Sign Up</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</body>
+
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">WELCOM TO BTS OUARZAZATE </h1>
+    <h1 class="display-4">Brevet De Technicien Supérieur </h1>
+    <p class="lead">Développement des Systèmes d'Information.</p>
+    <a href="login.php" class="btn btn-primary btn-lg">Explore Lessons</a>
+  </div>
+</div>
+<section id="about-us" class="my-5">
+  <div class="container">
+    <h2 class="text-center mb-5">About Us</h2>
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <img src="Images/bts2.PNG" alt="About Image 1" class="img-fluid rounded">
+      </div>
+      <div class="col-md-6">
+        <h3>Our Mission</h3>
+        <p>The Ibn Al Haitham Technical High School in Ouarzazate aims to train future higher-level technicians. The
+          school offers Bac+2 level programs, which are completed in 2 years after obtaining the baccalaureate. Upon
+          graduation, the graduates have the option to enter the professional world or continue their studies to
+          obtain a Bac+3 level (bachelor's degree) or higher (master's, engineering program, etc.).</p>
+      </div>
+    </div>
+    <div class="row align-items-center mt-5">
+      <div class="col-md-6 order-md-2">
+        <img src="Images/Pec_ibn.jpeg" alt="About Image 2" class="img-fluid rounded">
+      </div>
+      <div class="col-md-6 order-md-1">
+        <h3>Our Vision</h3>
+        <p>Our vision is to be a leading institution in the field of DSI, recognized for our excellence in education,
+          research, and innovation. We strive to empower our students to become passionate and ethical professionals
+          who can drive technological advancements and positively impact the communities they serve.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="contact" class="my-5">
+  <form action="Contact.php" method="POST">
+    <div class="container">
+      <h2 class="text-center mb-5">Contact Us</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter your phone number">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="3" name="message"
+                placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </form>
+</section>
+
+<section id="find-us" class="my-6">
+  <h2 class="text-center">Find Us</h2>
+  <div class="map-container">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d855.6378438881325!2d-6.930862171682129!3d30.927161691837085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdbb1b0c27d15745%3A0xd95dfe8fe81b09e1!2sBTS!5e0!3m2!1sfr!2sma!4v1717505739022!5m2!1sfr!2sma"
+      width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">
+    </iframe>
+  </div>
+</section>
+<section class="realizer">
+  <div class="realizer-info">
+    <img src="Images/My_Photo.JPG" alt="Mohamed Ourkiya" class="realizer-photo">
+    <div class="realizer-details">
+      <h3>Realizer</h3>
+      <p class="realizer-name">Mohamed Ourkiya</p>
+      <p class="realizer-description">Mohamed Ourkiya is a talented developer and student who studied BTS DSI in
+        Morocco. He created the e-learning website for BTS DSI students as a graduation project, showcasing his
+        expertise in web design and development. The platform he designed provides a visually attractive and
+        user-friendly experience, and provides valuable resources for students in their studies at DSI.</p>
+    </div>
+  </div>
+  <div class="realizer-social-links">
+    <a href="www.linkedin.com/in/mohamed-ourkiya-09984b274" target="_blank">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://www.instagram.com/mohamedourkiya/" target="_blank">
+      <i class="fab fa-instagram"></i>
+    </a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="copyright">
+    &copy; 2024 BTS DSI E-Learning Maroc. All rights reserved.
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
